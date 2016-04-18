@@ -1,0 +1,76 @@
+2016-04-17 20:21:33,533  INFO ECommon.Socketing.ServerSocket - Socket server is starting, listening on TCP endpoint: 192.168.199.229:9000.
+2016-04-17 20:21:33,542  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5000, local endpoint:192.168.199.229:58265
+2016-04-17 20:21:33,543  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5002, local endpoint:192.168.199.229:58266
+2016-04-17 20:21:33,832  INFO ECommon.Socketing.ServerSocket - Socket accepted, remote endpoint:192.168.199.229:57864
+2016-04-17 20:22:25,889  INFO ECommon.Socketing.TcpConnection - Socket closed, remote endpoint:192.168.199.229:5002 socketError:ConnectionReset, reason:Socket receive error
+2016-04-17 20:22:25,889  INFO ECommon.Socketing.TcpConnection - Socket closed, remote endpoint:192.168.199.229:5000 socketError:ConnectionReset, reason:Socket receive error
+2016-04-17 20:22:26,894  INFO ECommon.Remoting.SocketRemotingClient - Try to reconnect to server, address: 192.168.199.229:5000
+2016-04-17 20:22:26,895  INFO ECommon.Remoting.SocketRemotingClient - Try to reconnect to server, address: 192.168.199.229:5002
+2016-04-17 20:22:27,896  INFO ECommon.Socketing.ClientSocket - Socket connect failed, socketError:ConnectionRefused
+2016-04-17 20:22:27,896  INFO ECommon.Socketing.ClientSocket - Socket connect failed, socketError:ConnectionRefused
+2016-04-17 20:22:29,199  INFO ECommon.Socketing.TcpConnection - Socket closed, remote endpoint:192.168.199.229:57864 socketError:ConnectionReset, reason:Socket receive error
+2016-04-17 20:22:29,906  INFO ECommon.Remoting.SocketRemotingClient - Try to reconnect to server, address: 192.168.199.229:5000
+2016-04-17 20:22:29,906  INFO ECommon.Remoting.SocketRemotingClient - Try to reconnect to server, address: 192.168.199.229:5002
+2016-04-17 20:22:30,907  INFO ECommon.Socketing.ClientSocket - Socket connect failed, socketError:ConnectionRefused
+2016-04-17 20:22:30,907  INFO ECommon.Socketing.ClientSocket - Socket connect failed, socketError:ConnectionRefused
+2016-04-17 20:22:32,908  INFO ECommon.Remoting.SocketRemotingClient - Try to reconnect to server, address: 192.168.199.229:5000
+2016-04-17 20:22:32,908  INFO ECommon.Remoting.SocketRemotingClient - Try to reconnect to server, address: 192.168.199.229:5002
+2016-04-17 20:22:33,910  INFO ECommon.Socketing.ClientSocket - Socket connect failed, socketError:ConnectionRefused
+2016-04-17 20:22:33,910  INFO ECommon.Socketing.ClientSocket - Socket connect failed, socketError:ConnectionRefused
+2016-04-17 20:22:35,921  INFO ECommon.Remoting.SocketRemotingClient - Try to reconnect to server, address: 192.168.199.229:5000
+2016-04-17 20:22:35,921  INFO ECommon.Remoting.SocketRemotingClient - Try to reconnect to server, address: 192.168.199.229:5002
+2016-04-17 20:22:36,922  INFO ECommon.Socketing.ClientSocket - Socket connect failed, socketError:ConnectionRefused
+2016-04-17 20:22:36,924  INFO ECommon.Socketing.ClientSocket - Socket connect failed, socketError:ConnectionRefused
+2016-04-17 20:22:38,923  INFO ECommon.Remoting.SocketRemotingClient - Try to reconnect to server, address: 192.168.199.229:5002
+2016-04-17 20:22:38,923  INFO ECommon.Remoting.SocketRemotingClient - Try to reconnect to server, address: 192.168.199.229:5000
+2016-04-17 20:22:39,924  INFO ECommon.Socketing.ClientSocket - Socket connect failed, socketError:ConnectionRefused
+2016-04-17 20:22:39,924  INFO ECommon.Socketing.ClientSocket - Socket connect failed, socketError:ConnectionRefused
+2016-04-17 20:22:46,658  INFO ECommon.Socketing.ServerSocket - Socket server is starting, listening on TCP endpoint: 192.168.199.229:9000.
+2016-04-17 20:22:46,679  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5000, local endpoint:192.168.199.229:58528
+2016-04-17 20:22:46,681  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5002, local endpoint:192.168.199.229:58529
+2016-04-17 20:23:05,806  INFO ECommon.Socketing.ServerSocket - Socket accepted, remote endpoint:192.168.199.229:58574
+2016-04-17 20:28:07,804  INFO ECommon.Socketing.TcpConnection - Socket closed, remote endpoint:192.168.199.229:58574 socketError:Success, reason:Socket normal close
+2016-04-17 20:29:24,491  INFO ECommon.Socketing.ServerSocket - Socket accepted, remote endpoint:192.168.199.229:59427
+2016-04-17 20:36:18,813  INFO ECommon.Socketing.ServerSocket - Socket server is starting, listening on TCP endpoint: 192.168.199.229:9000.
+2016-04-17 20:36:18,834  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5000, local endpoint:192.168.199.229:60642
+2016-04-17 20:36:18,836  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5002, local endpoint:192.168.199.229:60643
+2016-04-17 20:39:12,794  INFO ECommon.Socketing.ServerSocket - Socket accepted, remote endpoint:192.168.199.229:61035
+2016-04-17 21:08:43,834  INFO ECommon.Socketing.ServerSocket - Socket server is starting, listening on TCP endpoint: 192.168.199.229:9000.
+2016-04-17 21:08:43,866  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5000, local endpoint:192.168.199.229:1392
+2016-04-17 21:08:43,867  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5002, local endpoint:192.168.199.229:1393
+2016-04-17 21:14:09,118  INFO ECommon.Socketing.ServerSocket - Socket server is starting, listening on TCP endpoint: 192.168.199.229:9000.
+2016-04-17 21:14:09,139  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5000, local endpoint:192.168.199.229:2300
+2016-04-17 21:14:09,141  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5002, local endpoint:192.168.199.229:2301
+2016-04-17 21:14:41,279  INFO ECommon.Socketing.ServerSocket - Socket accepted, remote endpoint:192.168.199.229:2381
+2016-04-17 21:14:41,279  INFO ECommon.Socketing.ServerSocket - Socket accepted, remote endpoint:192.168.199.229:2379
+2016-04-17 21:14:41,279  INFO ECommon.Socketing.ServerSocket - Socket accepted, remote endpoint:192.168.199.229:2383
+2016-04-17 21:14:41,279  INFO ECommon.Socketing.ServerSocket - Socket accepted, remote endpoint:192.168.199.229:2380
+2016-04-17 21:14:41,281  INFO ECommon.Socketing.ServerSocket - Socket accepted, remote endpoint:192.168.199.229:2382
+2016-04-17 21:14:41,281  INFO ECommon.Socketing.ServerSocket - Socket accepted, remote endpoint:192.168.199.229:2378
+2016-04-17 21:14:41,283  INFO ECommon.Socketing.ServerSocket - Socket accepted, remote endpoint:192.168.199.229:2384
+2016-04-17 21:14:41,283  INFO ECommon.Socketing.ServerSocket - Socket accepted, remote endpoint:192.168.199.229:2385
+2016-04-17 21:14:41,283  INFO ECommon.Socketing.ServerSocket - Socket accepted, remote endpoint:192.168.199.229:2386
+2016-04-17 21:15:06,772  INFO ECommon.Socketing.ServerSocket - Socket accepted, remote endpoint:192.168.199.229:2454
+2016-04-17 21:49:06,130  INFO ECommon.Socketing.ServerSocket - Socket server is starting, listening on TCP endpoint: 192.168.199.229:9000.
+2016-04-17 21:49:06,171  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5000, local endpoint:192.168.199.229:8666
+2016-04-17 21:49:06,173  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5002, local endpoint:192.168.199.229:8667
+2016-04-17 21:57:33,857  INFO ECommon.Socketing.ServerSocket - Socket server is starting, listening on TCP endpoint: 192.168.199.229:9000.
+2016-04-17 21:57:33,878  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5000, local endpoint:192.168.199.229:10340
+2016-04-17 21:57:33,880  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5002, local endpoint:192.168.199.229:10341
+2016-04-17 22:01:25,068  INFO ECommon.Socketing.ServerSocket - Socket server is starting, listening on TCP endpoint: 192.168.199.229:9000.
+2016-04-17 22:01:25,088  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5000, local endpoint:192.168.199.229:11279
+2016-04-17 22:01:25,090  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5002, local endpoint:192.168.199.229:11280
+2016-04-17 22:02:30,362  INFO ECommon.Socketing.ServerSocket - Socket server is starting, listening on TCP endpoint: 192.168.199.229:9000.
+2016-04-17 22:02:30,386  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5000, local endpoint:192.168.199.229:11529
+2016-04-17 22:02:30,388  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5002, local endpoint:192.168.199.229:11530
+2016-04-17 22:02:45,939  INFO ECommon.Socketing.ServerSocket - Socket accepted, remote endpoint:192.168.199.229:11578
+2016-04-17 22:02:46,318  INFO ECommon.Socketing.ServerSocket - Socket accepted, remote endpoint:192.168.199.229:11579
+2016-04-17 22:03:07,539  INFO ECommon.Socketing.TcpConnection - Socket closed, remote endpoint:192.168.199.229:5000 socketError:Success, reason:Socket normal close
+2016-04-17 22:03:07,539  INFO ECommon.Socketing.TcpConnection - Socket closed, remote endpoint:192.168.199.229:5002 socketError:Success, reason:Socket normal close
+2016-04-17 22:06:37,482  INFO ECommon.Socketing.ServerSocket - Socket server is starting, listening on TCP endpoint: 192.168.199.229:9000.
+2016-04-17 22:06:37,502  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5000, local endpoint:192.168.199.229:12361
+2016-04-17 22:06:37,504  INFO ECommon.Socketing.ClientSocket - Socket connected, remote endpoint:192.168.199.229:5002, local endpoint:192.168.199.229:12362
+2016-04-17 22:06:50,709  INFO ECommon.Socketing.ServerSocket - Socket accepted, remote endpoint:192.168.199.229:12392
+2016-04-17 22:07:01,508  INFO ECommon.Socketing.ServerSocket - Socket accepted, remote endpoint:192.168.199.229:12416
+2016-04-17 22:07:23,369  INFO ECommon.Socketing.TcpConnection - Socket closed, remote endpoint:192.168.199.229:12416 socketError:ConnectionReset, reason:Socket receive error
+2016-04-17 22:07:23,375  INFO ECommon.Socketing.TcpConnection - Socket closed, remote endpoint:192.168.199.229:12392 socketError:ConnectionReset, reason:Socket receive error
