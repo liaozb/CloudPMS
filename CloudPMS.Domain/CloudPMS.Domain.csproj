@@ -74,6 +74,7 @@
   <ItemGroup>
     <Compile Include="OA\Users\User.cs" />
     <Compile Include="OA\Users\UserCreatedEvent.cs" />
+    <Compile Include="OA\Users\UserUpdatedEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
