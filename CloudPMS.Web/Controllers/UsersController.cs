@@ -7,6 +7,9 @@ using ENode.Commanding;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web.Http;
+using System.Net.Http;
+using System.Threading;
+using System.Web.Http.Controllers;
 
 namespace CloudPMS.Web.Controllers
 {
@@ -14,10 +17,9 @@ namespace CloudPMS.Web.Controllers
     {
 
         private readonly ICommandService _commandService;
-
-        public UsersController()
+        public UsersController(ICommandService commandService)
         {
-            _commandService = ObjectContainer.Resolve<ICommandService>();
+            _commandService = commandService;
         }
  
         public async Task<IHttpActionResult> Create(CreateUserModel model)

@@ -123,6 +123,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <None Include="Properties\PublishProfiles\fb.pubxml" />
     <None Include="Scripts\jquery-1.12.3.intellisense.js" />
     <Content Include="Scripts\abp.jquery.js" />
     <Content Include="Scripts\jquery-1.12.3.js" />

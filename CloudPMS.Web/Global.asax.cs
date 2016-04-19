@@ -22,9 +22,10 @@ namespace CloudPMS.Web
         void Application_Start(object sender, EventArgs e)
         {
             // 在应用程序启动时运行的代码
-            GlobalConfiguration.Configure(WebApiConfig.Register);
+          
             InitializeECommon();
             InitializeENode();
+            GlobalConfiguration.Configure(WebApiConfig.Register);
         }
         private void InitializeECommon()
         {
@@ -59,15 +60,18 @@ namespace CloudPMS.Web
                 .InitializeBusinessAssemblies(assemblies)
                 .StartEQueue();
 
-            //RegisterControllers();
+            RegisterControllers();
             _logger.Info("ENode initialized.");
         }
         private void RegisterControllers()
         {
-            var builder = new ContainerBuilder();
+         
             var config = GlobalConfiguration.Configuration;
-            builder.RegisterApiControllers(Assembly.GetExecutingAssembly());
-            var container = builder.Build();
+            var webAssembly = Assembly.GetExecutingAssembly();
+            var container = (ObjectContainer.Current as AutofacObjectContainer).Container;
+            var builder = new ContainerBuilder();
+            builder.RegisterApiControllers(webAssembly);
+            builder.Update(container);
             config.DependencyResolver = new AutofacWebApiDependencyResolver(container);
         }
     }
